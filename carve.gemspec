@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["scott@scottmotte.com"]
   gem.description   = %q{Ruby bindings for the Carve.io API.}
   gem.summary       = %q{Convert documents or webpages to PDF and PNGs}
-  gem.homepage      = "http://carve.io/api"
+  gem.homepage      = "http://github.com/scottmotte/carve-ruby"
 
   gem.add_dependency "faraday"
   gem.add_dependency "faraday_middleware"
