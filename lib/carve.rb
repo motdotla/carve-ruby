@@ -3,6 +3,7 @@ require "faraday_middleware"
 require "recursive-open-struct"
 require "carve/version"
 require "carve/document"
+require "carve/event"
 
 module Carve
   extend self

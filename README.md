@@ -38,6 +38,13 @@ Replace the url with a url of the PDF or Microsoft Word file you choose.
 
     $ Carve::Document.pages("id_of_document")
 
+### List Events
+
+```bash
+$ Carve::Event.all
+$ Carve::Event.all(:type => "document.done", :count => 100)
+```
+
 ## Contributing
 
 0. Add your application configuration to your .env file in the root of this project
