@@ -40,6 +40,12 @@ Replace the url with a url of the PDF or Microsoft Word file you choose.
 
 ## Contributing
 
+0. Add your application configuration to your .env file in the root of this project
+
+```bash
+$ echo "CARVE_SECRET_API_KEY=yourkey" > .env
+```
+
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. export CARVE_SECRET_API_KEY="your_test_secret_api_key"
